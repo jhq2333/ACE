@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Form Filler Demo</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f2f5f9;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background: linear-gradient(135deg, #f7fafc 0%, #e3ecf8 100%);
+        min-height: 100vh;
+      }
+
+      .card {
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 18px 35px rgba(15, 23, 42, 0.15);
+        width: min(640px, 100%);
+        padding: 32px 36px 40px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        margin: 0 0 1.5rem;
+        font-size: 1.85rem;
+        color: #1e293b;
+      }
+
+      p.description {
+        margin: 0 0 2rem;
+        color: #475569;
+        line-height: 1.6;
+      }
+
+      form {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem 1.75rem;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.45rem;
+      }
+
+      label {
+        font-weight: 600;
+        color: #0f172a;
+        font-size: 0.95rem;
+      }
+
+      input,
+      select {
+        border: 1px solid rgba(148, 163, 184, 0.5);
+        border-radius: 10px;
+        padding: 0.75rem 0.9rem;
+        font-size: 1rem;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        background-color: #f8fafc;
+      }
+
+      input:focus,
+      select:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+        background-color: #fff;
+      }
+
+      input[aria-invalid="true"] {
+        border-color: #e11d48;
+        box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.12);
+        background-color: #fff5f7;
+      }
+
+      .error-message {
+        font-size: 0.85rem;
+        color: #be123c;
+        min-height: 1.15rem;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+
+      .error-message[data-error-active="true"] {
+        opacity: 1;
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+      }
+
+      button[type="submit"] {
+        margin-top: 1.5rem;
+        grid-column: 1 / -1;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #fff;
+        border: none;
+        border-radius: 999px;
+        padding: 0.9rem 1.6rem;
+        font-size: 1.05rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.15s ease, box-shadow 0.2s ease;
+      }
+
+      button[type="submit"]:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+      }
+
+      .status-area {
+        margin-top: 2rem;
+        padding: 1rem 1.25rem;
+        background: #f5f9ff;
+        border-radius: 12px;
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        color: #1e3a8a;
+        font-weight: 500;
+      }
+
+      .status-area.success {
+        background: #ecfdf5;
+        border-color: rgba(16, 185, 129, 0.3);
+        color: #047857;
+      }
+
+      .status-area.error {
+        background: #fef2f2;
+        border-color: rgba(248, 113, 113, 0.3);
+        color: #b91c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <h1>Shipping Details</h1>
+      <p class="description">
+        This demo form powers the Smart Form Filler project. Submitting with
+        incorrect formats will surface precise validation messages so the
+        Agentic Context Engine can learn how to normalize data.
+      </p>
+
+      <form id="shipping-form" novalidate>
+        <div class="field">
+          <label for="first_name">First Name</label>
+          <input
+            id="first_name"
+            name="first_name"
+            type="text"
+            placeholder="Jane"
+            required
+          />
+          <span class="error-message" data-field="first_name"></span>
+        </div>
+
+        <div class="field">
+          <label for="last_name">Last Name</label>
+          <input
+            id="last_name"
+            name="last_name"
+            type="text"
+            placeholder="Doe"
+            required
+          />
+          <span class="error-message" data-field="last_name"></span>
+        </div>
+
+        <div class="field full-width">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="jane.doe@example.com"
+            required
+          />
+          <span class="error-message" data-field="email"></span>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone (9 digits)</label>
+          <input
+            id="phone"
+            name="phone"
+            type="text"
+            placeholder="600123456"
+            inputmode="numeric"
+            maxlength="12"
+            required
+          />
+          <span class="error-message" data-field="phone"></span>
+        </div>
+
+        <div class="field">
+          <label for="ship_date">Desired Ship Date (MM/DD/YYYY)</label>
+          <input
+            id="ship_date"
+            name="ship_date"
+            type="text"
+            placeholder="08/12/1998"
+            required
+          />
+          <span class="error-message" data-field="ship_date"></span>
+        </div>
+
+        <div class="field full-width">
+          <label for="address1">Address Line 1</label>
+          <input
+            id="address1"
+            name="address1"
+            type="text"
+            placeholder="123 Main Street"
+            required
+          />
+          <span class="error-message" data-field="address1"></span>
+        </div>
+
+        <div class="field full-width">
+          <label for="address2">Address Line 2 (optional)</label>
+          <input
+            id="address2"
+            name="address2"
+            type="text"
+            placeholder="Apartment, suite, etc."
+          />
+          <span class="error-message" data-field="address2"></span>
+        </div>
+
+        <div class="field">
+          <label for="city">City</label>
+          <input
+            id="city"
+            name="city"
+            type="text"
+            placeholder="Bilbao"
+            required
+          />
+          <span class="error-message" data-field="city"></span>
+        </div>
+
+        <div class="field">
+          <label for="state_region">State / Province</label>
+          <input
+            id="state_region"
+            name="state_region"
+            type="text"
+            placeholder="Biscay"
+            required
+          />
+          <span class="error-message" data-field="state_region"></span>
+        </div>
+
+        <div class="field">
+          <label for="zip_postal">Postal Code (5 digits)</label>
+          <input
+            id="zip_postal"
+            name="zip_postal"
+            type="text"
+            placeholder="48001"
+            inputmode="numeric"
+            maxlength="10"
+            required
+          />
+          <span class="error-message" data-field="zip_postal"></span>
+        </div>
+
+        <div class="field">
+          <label for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Spain">Spain</option>
+            <option value="United States">United States</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+          </select>
+          <span class="error-message" data-field="country"></span>
+        </div>
+
+        <button id="submit" type="submit">Submit Order</button>
+      </form>
+
+      <section id="status" class="status-area" aria-live="polite">
+        Form has not been submitted yet.
+      </section>
+    </article>
+
+    <script>
+      const form = document.getElementById("shipping-form");
+      const statusArea = document.getElementById("status");
+      const errorMessages = Array.from(
+        document.querySelectorAll(".error-message")
+      );
+
+      const FORM_RULES = {
+        ship_date: {
+          pattern: /^\d{2}\/\d{2}\/\d{4}$/,
+          message: "Date must be in MM/DD/YYYY format, e.g., 08/12/1998",
+        },
+        phone: {
+          pattern: /^\d{9}$/,
+          message: "Phone number must be exactly 9 digits (digits only).",
+        },
+        zip_postal: {
+          pattern: /^\d{5}$/,
+          message: "Postal code must be 5 digits (digits only).",
+        },
+      };
+
+      const REQUIRED_FIELDS = [
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "ship_date",
+        "address1",
+        "city",
+        "state_region",
+        "zip_postal",
+        "country",
+      ];
+
+      window.__FORM_STATE__ = {
+        submitted: false,
+        timestamp: null,
+        errors: {},
+        successMessage: null,
+      };
+
+      function resetErrors() {
+        errorMessages.forEach((msg) => {
+          msg.textContent = "";
+          msg.dataset.errorActive = "false";
+        });
+        Array.from(form.elements).forEach((el) => {
+          if (
+            el instanceof HTMLInputElement ||
+            el instanceof HTMLSelectElement
+          ) {
+            el.setAttribute("aria-invalid", "false");
+          }
+        });
+        statusArea.classList.remove("error", "success");
+      }
+
+      function registerError(field, message) {
+        const span = document.querySelector(
+          `.error-message[data-field="${field}"]`
+        );
+        if (span) {
+          span.textContent = message;
+          span.dataset.errorActive = "true";
+        }
+        const element = form.elements.namedItem(field);
+        if (
+          element instanceof HTMLInputElement ||
+          element instanceof HTMLSelectElement
+        ) {
+          element.setAttribute("aria-invalid", "true");
+        }
+        window.__FORM_STATE__.errors[field] = { message };
+      }
+
+      function markSuccess(message) {
+        statusArea.textContent = message;
+        statusArea.classList.remove("error");
+        statusArea.classList.add("success");
+      }
+
+      function markFailure(message) {
+        statusArea.textContent = message;
+        statusArea.classList.remove("success");
+        statusArea.classList.add("error");
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        resetErrors();
+        window.__FORM_STATE__ = {
+          submitted: false,
+          timestamp: new Date().toISOString(),
+          errors: {},
+          successMessage: null,
+        };
+
+        let hasError = false;
+
+        for (const field of REQUIRED_FIELDS) {
+          const element = form.elements.namedItem(field);
+          if (!element) continue;
+          const value = element.value.trim();
+          if (!value) {
+            registerError(field, "This field is required.");
+            hasError = true;
+          }
+        }
+
+        for (const [field, rule] of Object.entries(FORM_RULES)) {
+          const element = form.elements.namedItem(field);
+          if (!(element instanceof HTMLInputElement)) continue;
+          const value = element.value.trim();
+          if (value && !rule.pattern.test(value)) {
+            registerError(field, rule.message);
+            hasError = true;
+          }
+        }
+
+        if (hasError) {
+          markFailure(
+            "Submission blocked. Fix validation errors before retrying."
+          );
+          window.__FORM_STATE__.submitted = false;
+          return;
+        }
+
+        window.__FORM_STATE__.submitted = true;
+        window.__FORM_STATE__.errors = {};
+        window.__FORM_STATE__.successMessage =
+          "Form submitted successfully with normalized data!";
+        window.__FORM_STATE__.timestamp = new Date().toISOString();
+
+        markSuccess(window.__FORM_STATE__.successMessage);
+      });
+    </script>
+  </body>
+</html>

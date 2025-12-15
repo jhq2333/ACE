@@ -1,0 +1,49 @@
+2025-12-10 04:11:53,961 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 04:11:53,961 INFO ✅ Human Review Learner initialized
+2025-12-10 04:11:53,961 INFO    Playbook insights: 61
+2025-12-10 04:12:56,312 INFO 📨 Received review submission
+2025-12-10 04:12:56,312 INFO    Feedback: 不要说好的
+2025-12-10 04:12:56,313 INFO    Ground Truth: 您方便告诉我您的年龄范围吗，这样我可以为您提供更准确的建议
+2025-12-10 04:12:56,313 INFO ============================================================
+2025-12-10 04:12:56,313 INFO 👤 Human Review Learning
+2025-12-10 04:12:56,313 INFO ============================================================
+2025-12-10 04:12:56,313 INFO Original: 好的，理解。为了更准确分析，您方便告诉我您的年龄范围吗？
+2025-12-10 04:12:56,313 INFO Feedback: 不要说好的
+2025-12-10 04:12:56,313 INFO Ground Truth: 您方便告诉我您的年龄范围吗，这样我可以为您提供更准确的建议
+2025-12-10 04:12:56,313 INFO Context Length: 3
+2025-12-10 04:13:06,059 INFO 反思完成: 在客服对话中避免冗余的安抚性语言，尤其是在用户表现出不愿分享信息的情况下，应优先保持简洁和专业。
+2025-12-10 04:13:14,516 INFO Curator delta: 1 operations
+2025-12-10 04:13:14,523 INFO ============================================================
+2025-12-10 04:13:14,523 INFO ✅ Review Learning Completed in 18.21s
+2025-12-10 04:13:14,523 INFO    Insights added: 1
+2025-12-10 04:13:14,523 INFO    Total insights: 62
+2025-12-10 04:13:14,523 INFO ============================================================
+2025-12-10 04:16:23,468 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 04:16:23,469 INFO ✅ Human Review Learner initialized
+2025-12-10 04:16:23,469 INFO    Playbook insights: 62
+2025-12-10 04:29:16,608 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 04:29:16,609 INFO ✅ Human Review Learner initialized
+2025-12-10 04:29:16,609 INFO    Playbook insights: 62
+2025-12-10 04:44:24,070 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 04:44:24,071 INFO ✅ Human Review Learner initialized
+2025-12-10 04:44:24,071 INFO    Playbook insights: 62
+2025-12-10 05:29:45,369 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 05:29:45,369 INFO ✅ Human Review Learner initialized
+2025-12-10 05:29:45,370 INFO    Playbook insights: 62
+2025-12-10 21:01:32,849 INFO 📚 Loading playbook from /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 21:01:32,850 INFO ✅ Human Review Learner initialized
+2025-12-10 21:01:32,850 INFO    Playbook insights: 62
+2025-12-10 21:38:51,282 INFO ============================================================
+2025-12-10 21:38:51,284 INFO 👤 Human Review Learning
+2025-12-10 21:38:51,284 INFO ============================================================
+2025-12-10 21:38:51,284 INFO Original: test_data
+2025-12-10 21:38:51,285 INFO Feedback: 1
+2025-12-10 21:38:51,285 INFO Ground Truth: 
+2025-12-10 21:38:51,285 INFO Context Length: 0
+2025-12-10 21:38:59,994 INFO 反思完成: 确保生成的回答始终与输入内容相关，并避免输出无意义的占位符或测试数据。
+2025-12-10 21:39:05,737 INFO Curator delta: 1 operations
+2025-12-10 21:39:05,744 INFO ============================================================
+2025-12-10 21:39:05,744 INFO ✅ Review Learning Completed in 14.46s
+2025-12-10 21:39:05,744 INFO    Insights added: 1
+2025-12-10 21:39:05,745 INFO    Total insights: 63
+2025-12-10 21:39:05,745 INFO ============================================================

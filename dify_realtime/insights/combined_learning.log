@@ -1,0 +1,292 @@
+2025-12-10 22:14:26,338 INFO combined_learning 📚 Loading playbook /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-10 22:14:26,339 INFO combined_learning ✅ ACE components ready for task_type=customer_service
+2025-12-10 22:14:26,342 INFO combined_learning 🔄 Background learner started (interval=60s)
+2025-12-10 22:17:24,489 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-10 22:17:39,156 INFO combined_learning ✅ Human review learning finished in 14.67s
+2025-12-10 22:30:26,399 INFO combined_learning 🤖 Background trigger fired
+2025-12-10 22:30:26,400 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-10 22:30:26,409 INFO combined_learning Reflecting session=e227ebc3-3f02-42ac-83f8-e3b8dbb4c383 idx=0
+2025-12-10 22:30:50,286 INFO combined_learning Reflecting session=e227ebc3-3f02-42ac-83f8-e3b8dbb4c383 idx=2
+2025-12-10 22:31:08,017 INFO combined_learning Reflecting session=e227ebc3-3f02-42ac-83f8-e3b8dbb4c383 idx=4
+2025-12-10 22:31:31,511 INFO combined_learning Reflecting session=e227ebc3-3f02-42ac-83f8-e3b8dbb4c383 idx=6
+2025-12-10 22:31:50,302 INFO combined_learning Reflecting session=e227ebc3-3f02-42ac-83f8-e3b8dbb4c383 idx=8
+2025-12-10 22:32:06,981 INFO combined_learning Reflecting session=5a682c50-53dc-4481-a2de-ca45356a6f7d idx=0
+2025-12-10 22:32:24,671 INFO combined_learning Reflecting session=5a682c50-53dc-4481-a2de-ca45356a6f7d idx=2
+2025-12-10 22:32:46,811 INFO combined_learning Reflecting session=5a682c50-53dc-4481-a2de-ca45356a6f7d idx=4
+2025-12-10 22:33:06,664 INFO combined_learning Reflecting session=5a682c50-53dc-4481-a2de-ca45356a6f7d idx=6
+2025-12-10 22:33:24,458 INFO combined_learning Reflecting session=5a682c50-53dc-4481-a2de-ca45356a6f7d idx=8
+2025-12-10 22:33:41,423 INFO combined_learning Reflecting session=dd352bc6-5bd1-4ba8-8c1e-f4512c0dcc2b idx=0
+2025-12-10 22:34:00,724 INFO combined_learning Reflecting session=dd352bc6-5bd1-4ba8-8c1e-f4512c0dcc2b idx=2
+2025-12-10 22:34:16,450 INFO combined_learning Reflecting session=dd352bc6-5bd1-4ba8-8c1e-f4512c0dcc2b idx=4
+2025-12-10 22:34:31,783 INFO combined_learning Reflecting session=dd352bc6-5bd1-4ba8-8c1e-f4512c0dcc2b idx=6
+2025-12-10 22:34:46,465 INFO combined_learning Reflecting session=dd352bc6-5bd1-4ba8-8c1e-f4512c0dcc2b idx=8
+2025-12-10 22:35:03,510 INFO combined_learning Reflecting session=5b3df2a5-96a7-4334-afa3-31479d6bc62b idx=0
+2025-12-10 22:35:19,128 INFO combined_learning ✅ Auto learning finished in 292.73s
+2025-12-10 22:35:19,128 INFO combined_learning Background learning status: success
+2025-12-10 22:42:19,161 INFO combined_learning 🤖 Background trigger fired
+2025-12-10 22:42:19,161 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-10 22:42:19,161 INFO combined_learning Reflecting session=5a367d66-24e7-4d52-80a7-6a81da61d0e8 idx=0
+2025-12-10 22:42:35,750 INFO combined_learning Reflecting session=5a367d66-24e7-4d52-80a7-6a81da61d0e8 idx=2
+2025-12-10 22:42:52,496 INFO combined_learning Reflecting session=5a367d66-24e7-4d52-80a7-6a81da61d0e8 idx=4
+2025-12-10 22:43:07,815 INFO combined_learning Reflecting session=5a367d66-24e7-4d52-80a7-6a81da61d0e8 idx=6
+2025-12-10 22:43:28,697 INFO combined_learning Reflecting session=c8bde344-9491-48e5-98ad-71c3ba447870 idx=0
+2025-12-10 22:43:50,181 INFO combined_learning Reflecting session=c8bde344-9491-48e5-98ad-71c3ba447870 idx=2
+2025-12-10 22:44:06,696 INFO combined_learning Reflecting session=c8bde344-9491-48e5-98ad-71c3ba447870 idx=4
+2025-12-10 22:44:25,143 INFO combined_learning Reflecting session=c8bde344-9491-48e5-98ad-71c3ba447870 idx=6
+2025-12-10 22:44:42,861 INFO combined_learning Reflecting session=c8bde344-9491-48e5-98ad-71c3ba447870 idx=8
+2025-12-10 22:45:01,949 INFO combined_learning Reflecting session=bbe50832-c6e1-4566-a9bf-98ac97e878e3 idx=0
+2025-12-10 22:45:19,663 INFO combined_learning Reflecting session=bbe50832-c6e1-4566-a9bf-98ac97e878e3 idx=2
+2025-12-10 22:45:38,562 INFO combined_learning Reflecting session=bbe50832-c6e1-4566-a9bf-98ac97e878e3 idx=4
+2025-12-10 22:45:54,072 INFO combined_learning Reflecting session=bbe50832-c6e1-4566-a9bf-98ac97e878e3 idx=6
+2025-12-10 22:46:14,167 INFO combined_learning Reflecting session=bbe50832-c6e1-4566-a9bf-98ac97e878e3 idx=8
+2025-12-10 22:46:36,186 INFO combined_learning Reflecting session=6b445de5-5230-4509-9c5a-1a3b12ee565a idx=0
+2025-12-10 22:46:55,439 INFO combined_learning ✅ Auto learning finished in 276.28s
+2025-12-10 22:46:55,439 INFO combined_learning Background learning status: success
+2025-12-10 22:51:02,964 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-10 22:51:15,763 INFO combined_learning ✅ Human review learning finished in 12.80s
+2025-12-10 22:51:33,795 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-10 22:51:52,855 INFO combined_learning ✅ Human review learning finished in 19.06s
+2025-12-10 22:52:32,561 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-10 22:52:34,243 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-10 22:52:47,300 INFO combined_learning ✅ Human review learning finished in 13.06s
+2025-12-10 22:52:56,811 INFO combined_learning ✅ Human review learning finished in 24.25s
+2025-12-10 22:54:55,440 INFO combined_learning 🤖 Background trigger fired
+2025-12-10 22:54:55,440 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-10 22:54:55,441 INFO combined_learning Reflecting session=f94e7c7a-7990-4bd5-9007-b490162c7548 idx=0
+2025-12-10 22:55:20,440 INFO combined_learning Reflecting session=f94e7c7a-7990-4bd5-9007-b490162c7548 idx=2
+2025-12-10 22:55:37,026 INFO combined_learning Reflecting session=f94e7c7a-7990-4bd5-9007-b490162c7548 idx=4
+2025-12-10 22:55:58,251 INFO combined_learning Reflecting session=f94e7c7a-7990-4bd5-9007-b490162c7548 idx=6
+2025-12-10 22:56:14,933 INFO combined_learning Reflecting session=6ba8da81-a8e6-4fb2-bf32-521cec880962 idx=0
+2025-12-10 22:56:36,893 INFO combined_learning Reflecting session=6ba8da81-a8e6-4fb2-bf32-521cec880962 idx=2
+2025-12-10 22:56:55,888 INFO combined_learning Reflecting session=6ba8da81-a8e6-4fb2-bf32-521cec880962 idx=4
+2025-12-10 22:57:19,650 INFO combined_learning Reflecting session=6ba8da81-a8e6-4fb2-bf32-521cec880962 idx=6
+2025-12-10 22:57:42,309 INFO combined_learning Reflecting session=6ba8da81-a8e6-4fb2-bf32-521cec880962 idx=8
+2025-12-10 22:57:58,680 INFO combined_learning Reflecting session=6e51bdde-4542-4cb9-8157-397a071ba38c idx=0
+2025-12-10 22:58:13,008 INFO combined_learning Reflecting session=6e51bdde-4542-4cb9-8157-397a071ba38c idx=2
+2025-12-10 22:58:29,019 INFO combined_learning Reflecting session=6e51bdde-4542-4cb9-8157-397a071ba38c idx=4
+2025-12-10 22:58:47,260 INFO combined_learning Reflecting session=6e51bdde-4542-4cb9-8157-397a071ba38c idx=6
+2025-12-10 22:59:03,978 INFO combined_learning Reflecting session=6e51bdde-4542-4cb9-8157-397a071ba38c idx=8
+2025-12-10 22:59:21,883 INFO combined_learning Reflecting session=3e3cdd6b-ab34-47a9-a8bb-c7b2f56041fb idx=0
+2025-12-10 22:59:43,610 INFO combined_learning Reflecting session=3e3cdd6b-ab34-47a9-a8bb-c7b2f56041fb idx=2
+2025-12-10 23:00:01,131 INFO combined_learning Reflecting session=3e3cdd6b-ab34-47a9-a8bb-c7b2f56041fb idx=4
+2025-12-10 23:00:19,853 INFO combined_learning ✅ Auto learning finished in 324.41s
+2025-12-10 23:00:19,853 INFO combined_learning Background learning status: success
+2025-12-10 23:07:19,860 INFO combined_learning 🤖 Background trigger fired
+2025-12-10 23:07:19,860 INFO combined_learning 📖 Learning from 3 dialogues
+2025-12-10 23:07:19,861 INFO combined_learning Reflecting session=db17c5a3-2628-4cdf-8b11-4e1007b828a9 idx=0
+2025-12-10 23:07:33,893 INFO combined_learning Reflecting session=db17c5a3-2628-4cdf-8b11-4e1007b828a9 idx=2
+2025-12-10 23:07:50,388 INFO combined_learning Reflecting session=db17c5a3-2628-4cdf-8b11-4e1007b828a9 idx=4
+2025-12-10 23:08:04,234 INFO combined_learning Reflecting session=db17c5a3-2628-4cdf-8b11-4e1007b828a9 idx=6
+2025-12-10 23:08:20,943 INFO combined_learning Reflecting session=db17c5a3-2628-4cdf-8b11-4e1007b828a9 idx=8
+2025-12-10 23:08:39,605 INFO combined_learning Reflecting session=046ca924-208a-40ce-ac20-dbe889055247 idx=0
+2025-12-10 23:08:54,439 INFO combined_learning Reflecting session=046ca924-208a-40ce-ac20-dbe889055247 idx=2
+2025-12-10 23:09:14,565 INFO combined_learning Reflecting session=046ca924-208a-40ce-ac20-dbe889055247 idx=4
+2025-12-10 23:09:33,042 INFO combined_learning Reflecting session=046ca924-208a-40ce-ac20-dbe889055247 idx=6
+2025-12-10 23:09:55,435 INFO combined_learning Reflecting session=046ca924-208a-40ce-ac20-dbe889055247 idx=8
+2025-12-10 23:10:12,832 INFO combined_learning Reflecting session=3456a346-a35a-465c-900e-2af3e88eef77 idx=0
+2025-12-10 23:10:32,950 INFO combined_learning Reflecting session=3456a346-a35a-465c-900e-2af3e88eef77 idx=2
+2025-12-10 23:10:55,243 INFO combined_learning Reflecting session=3456a346-a35a-465c-900e-2af3e88eef77 idx=4
+2025-12-10 23:11:15,652 INFO combined_learning Reflecting session=3456a346-a35a-465c-900e-2af3e88eef77 idx=6
+2025-12-10 23:11:37,210 INFO combined_learning Reflecting session=3456a346-a35a-465c-900e-2af3e88eef77 idx=8
+2025-12-10 23:11:55,508 INFO combined_learning ✅ Auto learning finished in 275.65s
+2025-12-10 23:11:55,508 INFO combined_learning Background learning status: success
+2025-12-11 01:31:28,034 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:31:50,537 INFO combined_learning ✅ Human review learning finished in 22.50s
+2025-12-11 01:33:31,971 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:33:47,096 INFO combined_learning ✅ Human review learning finished in 15.12s
+2025-12-11 01:36:40,356 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:36:57,103 INFO combined_learning ✅ Human review learning finished in 16.75s
+2025-12-11 01:42:00,777 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:42:23,162 INFO combined_learning ✅ Human review learning finished in 22.38s
+2025-12-11 01:44:04,039 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:44:21,354 INFO combined_learning ✅ Human review learning finished in 17.31s
+2025-12-11 01:49:09,443 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:49:49,726 INFO combined_learning ✅ Human review learning finished in 40.28s
+2025-12-11 01:52:18,913 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:52:34,509 INFO combined_learning ✅ Human review learning finished in 15.60s
+2025-12-11 01:54:34,477 INFO combined_learning 👤 Human review learning task (task_type=customer_service)
+2025-12-11 01:54:52,131 INFO combined_learning ✅ Human review learning finished in 17.65s
+2025-12-11 03:10:55,564 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 03:10:55,565 INFO combined_learning 📖 Learning from 3 dialogues
+2025-12-11 03:10:55,565 INFO combined_learning Reflecting session=8838a97d-40ee-4248-a833-aaae474d760c idx=0
+2025-12-11 03:11:19,419 INFO combined_learning Reflecting session=8838a97d-40ee-4248-a833-aaae474d760c idx=2
+2025-12-11 03:11:42,801 INFO combined_learning Reflecting session=8838a97d-40ee-4248-a833-aaae474d760c idx=4
+2025-12-11 03:12:10,984 INFO combined_learning Reflecting session=8838a97d-40ee-4248-a833-aaae474d760c idx=6
+2025-12-11 03:12:35,286 INFO combined_learning Reflecting session=8838a97d-40ee-4248-a833-aaae474d760c idx=8
+2025-12-11 03:13:05,530 INFO combined_learning Reflecting session=0776c4dd-8904-4ae0-9583-e201c4547bc2 idx=0
+2025-12-11 03:13:22,306 INFO combined_learning Reflecting session=0776c4dd-8904-4ae0-9583-e201c4547bc2 idx=2
+2025-12-11 03:13:39,912 INFO combined_learning Reflecting session=0776c4dd-8904-4ae0-9583-e201c4547bc2 idx=4
+2025-12-11 03:14:01,121 INFO combined_learning Reflecting session=0776c4dd-8904-4ae0-9583-e201c4547bc2 idx=6
+2025-12-11 03:14:27,078 INFO combined_learning Reflecting session=0776c4dd-8904-4ae0-9583-e201c4547bc2 idx=8
+2025-12-11 03:14:48,783 INFO combined_learning Reflecting session=c601453a-ae8a-4e18-b20b-a129db834290 idx=0
+2025-12-11 03:15:12,302 INFO combined_learning Reflecting session=c601453a-ae8a-4e18-b20b-a129db834290 idx=2
+2025-12-11 03:15:31,896 INFO combined_learning Reflecting session=c601453a-ae8a-4e18-b20b-a129db834290 idx=4
+2025-12-11 03:15:50,798 INFO combined_learning Reflecting session=c601453a-ae8a-4e18-b20b-a129db834290 idx=6
+2025-12-11 03:16:11,584 INFO combined_learning Reflecting session=c601453a-ae8a-4e18-b20b-a129db834290 idx=8
+2025-12-11 03:16:31,912 INFO combined_learning ✅ Auto learning finished in 336.35s
+2025-12-11 03:16:31,912 INFO combined_learning Background learning status: success
+2025-12-11 03:24:31,914 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 03:24:31,914 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-11 03:24:31,915 INFO combined_learning Reflecting session=c43f92f6-73f4-43af-8297-48ead2450bc8 idx=0
+2025-12-11 03:24:49,324 INFO combined_learning Reflecting session=c43f92f6-73f4-43af-8297-48ead2450bc8 idx=2
+2025-12-11 03:25:09,523 INFO combined_learning Reflecting session=c43f92f6-73f4-43af-8297-48ead2450bc8 idx=4
+2025-12-11 03:25:35,155 INFO combined_learning Reflecting session=a21de968-4608-4ded-ac87-9096be442464 idx=0
+2025-12-11 03:25:54,305 INFO combined_learning Reflecting session=a21de968-4608-4ded-ac87-9096be442464 idx=2
+2025-12-11 03:26:16,179 INFO combined_learning Reflecting session=a21de968-4608-4ded-ac87-9096be442464 idx=4
+2025-12-11 03:26:39,397 INFO combined_learning Reflecting session=a21de968-4608-4ded-ac87-9096be442464 idx=6
+2025-12-11 03:27:01,024 INFO combined_learning Reflecting session=a21de968-4608-4ded-ac87-9096be442464 idx=8
+2025-12-11 03:27:27,687 INFO combined_learning Reflecting session=214dc02a-4050-40ec-a63e-fec6f34a57f1 idx=0
+2025-12-11 03:27:53,525 INFO combined_learning Reflecting session=214dc02a-4050-40ec-a63e-fec6f34a57f1 idx=2
+2025-12-11 03:28:15,295 INFO combined_learning Reflecting session=214dc02a-4050-40ec-a63e-fec6f34a57f1 idx=4
+2025-12-11 03:28:39,825 INFO combined_learning Reflecting session=214dc02a-4050-40ec-a63e-fec6f34a57f1 idx=6
+2025-12-11 03:29:04,803 INFO combined_learning Reflecting session=214dc02a-4050-40ec-a63e-fec6f34a57f1 idx=8
+2025-12-11 03:29:30,431 INFO combined_learning Reflecting session=b3197bf7-3110-484b-be36-cfa5830ac97e idx=0
+2025-12-11 03:29:49,116 INFO combined_learning Reflecting session=b3197bf7-3110-484b-be36-cfa5830ac97e idx=2
+2025-12-11 03:30:11,124 INFO combined_learning Reflecting session=b3197bf7-3110-484b-be36-cfa5830ac97e idx=4
+2025-12-11 03:30:27,380 INFO combined_learning Reflecting session=b3197bf7-3110-484b-be36-cfa5830ac97e idx=6
+2025-12-11 03:30:51,180 INFO combined_learning ✅ Auto learning finished in 379.27s
+2025-12-11 03:30:51,181 INFO combined_learning Background learning status: success
+2025-12-11 03:37:51,182 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 03:37:51,182 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-11 03:37:51,183 INFO combined_learning Reflecting session=5acdc0fe-801d-4f88-b918-cefa720bb1e2 idx=0
+2025-12-11 03:38:13,061 INFO combined_learning Reflecting session=5acdc0fe-801d-4f88-b918-cefa720bb1e2 idx=2
+2025-12-11 03:38:29,429 INFO combined_learning Reflecting session=5acdc0fe-801d-4f88-b918-cefa720bb1e2 idx=4
+2025-12-11 03:38:54,601 INFO combined_learning Reflecting session=2e2fd229-b3a7-419f-a6af-f84134697784 idx=0
+2025-12-11 03:39:19,982 INFO combined_learning Reflecting session=2e2fd229-b3a7-419f-a6af-f84134697784 idx=2
+2025-12-11 03:39:38,013 INFO combined_learning Reflecting session=2e2fd229-b3a7-419f-a6af-f84134697784 idx=4
+2025-12-11 03:40:02,709 INFO combined_learning Reflecting session=2e2fd229-b3a7-419f-a6af-f84134697784 idx=6
+2025-12-11 03:40:26,804 INFO combined_learning Reflecting session=2e2fd229-b3a7-419f-a6af-f84134697784 idx=8
+2025-12-11 03:40:49,299 INFO combined_learning Reflecting session=4c8f6452-8286-400d-9be6-be4a4b1d7578 idx=0
+2025-12-11 03:41:07,659 INFO combined_learning Reflecting session=4c8f6452-8286-400d-9be6-be4a4b1d7578 idx=2
+2025-12-11 03:41:30,821 INFO combined_learning Reflecting session=4c8f6452-8286-400d-9be6-be4a4b1d7578 idx=4
+2025-12-11 03:41:53,092 INFO combined_learning Reflecting session=4c8f6452-8286-400d-9be6-be4a4b1d7578 idx=6
+2025-12-11 03:42:14,498 INFO combined_learning Reflecting session=4c8f6452-8286-400d-9be6-be4a4b1d7578 idx=8
+2025-12-11 03:42:36,493 INFO combined_learning Reflecting session=80cddf50-6613-4628-b8fe-e69f7436c49e idx=0
+2025-12-11 03:42:59,057 INFO combined_learning Reflecting session=80cddf50-6613-4628-b8fe-e69f7436c49e idx=2
+2025-12-11 03:43:19,165 INFO combined_learning ✅ Auto learning finished in 327.98s
+2025-12-11 03:43:19,165 INFO combined_learning Background learning status: success
+2025-12-11 03:51:19,212 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 03:51:19,213 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-11 03:51:19,213 INFO combined_learning Reflecting session=dddf011b-9e8e-4b27-9dad-8e7c259a2762 idx=0
+2025-12-11 03:51:44,702 INFO combined_learning Reflecting session=86ba231b-89f4-4d66-90fa-6a2e54d54236 idx=0
+2025-12-11 03:52:11,955 INFO combined_learning Reflecting session=86ba231b-89f4-4d66-90fa-6a2e54d54236 idx=2
+2025-12-11 03:52:28,217 INFO combined_learning Reflecting session=86ba231b-89f4-4d66-90fa-6a2e54d54236 idx=4
+2025-12-11 03:52:48,761 INFO combined_learning Reflecting session=86ba231b-89f4-4d66-90fa-6a2e54d54236 idx=6
+2025-12-11 03:53:07,905 INFO combined_learning Reflecting session=86ba231b-89f4-4d66-90fa-6a2e54d54236 idx=8
+2025-12-11 03:53:34,452 INFO combined_learning Reflecting session=e4957465-a8d5-48f6-bd19-13871c6ddaf5 idx=0
+2025-12-11 03:54:01,249 INFO combined_learning Reflecting session=e4957465-a8d5-48f6-bd19-13871c6ddaf5 idx=2
+2025-12-11 03:54:29,464 INFO combined_learning Reflecting session=e4957465-a8d5-48f6-bd19-13871c6ddaf5 idx=4
+2025-12-11 03:54:49,336 INFO combined_learning Reflecting session=e4957465-a8d5-48f6-bd19-13871c6ddaf5 idx=6
+2025-12-11 03:55:16,461 INFO combined_learning Reflecting session=e4957465-a8d5-48f6-bd19-13871c6ddaf5 idx=8
+2025-12-11 03:55:48,155 INFO combined_learning Reflecting session=70de0e9d-7f0a-44fd-a5ed-8f23c6d550c8 idx=0
+2025-12-11 03:56:12,125 INFO combined_learning Reflecting session=70de0e9d-7f0a-44fd-a5ed-8f23c6d550c8 idx=2
+2025-12-11 03:56:37,703 INFO combined_learning Reflecting session=70de0e9d-7f0a-44fd-a5ed-8f23c6d550c8 idx=4
+2025-12-11 03:56:57,218 INFO combined_learning Reflecting session=70de0e9d-7f0a-44fd-a5ed-8f23c6d550c8 idx=6
+2025-12-11 03:57:14,682 INFO combined_learning Reflecting session=70de0e9d-7f0a-44fd-a5ed-8f23c6d550c8 idx=8
+2025-12-11 03:57:39,917 INFO combined_learning ✅ Auto learning finished in 380.70s
+2025-12-11 03:57:39,917 INFO combined_learning Background learning status: success
+2025-12-11 04:16:19,878 INFO combined_learning 📚 Loading playbook /data/fangsy/jhq/kouqiangACE/agentic-context-engine-main/dify_realtime/playbooks/customer_service_insights.json
+2025-12-11 04:16:19,878 INFO combined_learning ✅ ACE components ready for task_type=customer_service
+2025-12-11 04:16:19,882 INFO combined_learning 🔄 Background learner started (interval=60s)
+2025-12-11 04:25:19,885 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 04:25:19,885 INFO combined_learning 📖 Learning from 3 dialogues
+2025-12-11 04:25:19,888 INFO combined_learning Reflecting session=5ae23f27-5911-41ea-9263-e0f1b5c6c905 idx=0
+2025-12-11 04:25:36,452 INFO combined_learning Reflecting session=5ae23f27-5911-41ea-9263-e0f1b5c6c905 idx=2
+2025-12-11 04:25:53,322 INFO combined_learning Reflecting session=5ae23f27-5911-41ea-9263-e0f1b5c6c905 idx=4
+2025-12-11 04:26:07,300 INFO combined_learning Reflecting session=5ae23f27-5911-41ea-9263-e0f1b5c6c905 idx=6
+2025-12-11 04:26:19,965 INFO combined_learning Reflecting session=5ae23f27-5911-41ea-9263-e0f1b5c6c905 idx=8
+2025-12-11 04:26:38,468 INFO combined_learning Reflecting session=70574e29-4b46-42d2-9920-f25c40862e4a idx=0
+2025-12-11 04:27:01,439 INFO combined_learning Reflecting session=70574e29-4b46-42d2-9920-f25c40862e4a idx=2
+2025-12-11 04:27:21,337 INFO combined_learning Reflecting session=70574e29-4b46-42d2-9920-f25c40862e4a idx=4
+2025-12-11 04:27:38,588 INFO combined_learning Reflecting session=70574e29-4b46-42d2-9920-f25c40862e4a idx=6
+2025-12-11 04:27:57,278 INFO combined_learning Reflecting session=70574e29-4b46-42d2-9920-f25c40862e4a idx=8
+2025-12-11 04:28:14,012 INFO combined_learning Reflecting session=3afddf94-a2cb-4d53-89ee-31b30cebecf2 idx=0
+2025-12-11 04:28:30,785 INFO combined_learning Reflecting session=3afddf94-a2cb-4d53-89ee-31b30cebecf2 idx=2
+2025-12-11 04:28:47,299 INFO combined_learning Reflecting session=3afddf94-a2cb-4d53-89ee-31b30cebecf2 idx=4
+2025-12-11 04:29:04,261 INFO combined_learning Reflecting session=3afddf94-a2cb-4d53-89ee-31b30cebecf2 idx=6
+2025-12-11 04:29:24,325 INFO combined_learning Reflecting session=3afddf94-a2cb-4d53-89ee-31b30cebecf2 idx=8
+2025-12-11 04:29:43,671 INFO combined_learning ✅ Auto learning finished in 263.79s
+2025-12-11 04:29:43,671 INFO combined_learning Background learning status: success
+2025-12-11 04:36:43,673 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 04:36:43,673 INFO combined_learning 📖 Learning from 3 dialogues
+2025-12-11 04:36:43,673 INFO combined_learning Reflecting session=7052bbfa-d8b2-42a7-afba-40ba4dcc2890 idx=0
+2025-12-11 04:36:56,489 INFO combined_learning Reflecting session=7052bbfa-d8b2-42a7-afba-40ba4dcc2890 idx=2
+2025-12-11 04:37:14,169 INFO combined_learning Reflecting session=7052bbfa-d8b2-42a7-afba-40ba4dcc2890 idx=4
+2025-12-11 04:37:29,278 INFO combined_learning Reflecting session=7052bbfa-d8b2-42a7-afba-40ba4dcc2890 idx=6
+2025-12-11 04:37:56,434 INFO combined_learning Reflecting session=7052bbfa-d8b2-42a7-afba-40ba4dcc2890 idx=8
+2025-12-11 04:38:12,414 INFO combined_learning Reflecting session=fa9e14cd-d7e4-4784-9eda-af3fc2e2a8d8 idx=0
+2025-12-11 04:38:35,465 INFO combined_learning Reflecting session=fa9e14cd-d7e4-4784-9eda-af3fc2e2a8d8 idx=2
+2025-12-11 04:38:51,898 INFO combined_learning Reflecting session=fa9e14cd-d7e4-4784-9eda-af3fc2e2a8d8 idx=4
+2025-12-11 04:39:05,855 INFO combined_learning Reflecting session=fa9e14cd-d7e4-4784-9eda-af3fc2e2a8d8 idx=6
+2025-12-11 04:39:29,006 INFO combined_learning Reflecting session=fa9e14cd-d7e4-4784-9eda-af3fc2e2a8d8 idx=8
+2025-12-11 04:39:45,336 INFO combined_learning Reflecting session=87aac64e-5d08-4980-95d4-5a49514f8bec idx=0
+2025-12-11 04:40:05,752 INFO combined_learning Reflecting session=87aac64e-5d08-4980-95d4-5a49514f8bec idx=2
+2025-12-11 04:40:21,987 INFO combined_learning Reflecting session=87aac64e-5d08-4980-95d4-5a49514f8bec idx=4
+2025-12-11 04:40:39,895 INFO combined_learning Reflecting session=87aac64e-5d08-4980-95d4-5a49514f8bec idx=6
+2025-12-11 04:41:04,940 INFO combined_learning Reflecting session=87aac64e-5d08-4980-95d4-5a49514f8bec idx=8
+2025-12-11 04:41:23,360 INFO combined_learning ✅ Auto learning finished in 279.69s
+2025-12-11 04:41:23,360 INFO combined_learning Background learning status: success
+2025-12-11 04:48:23,362 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 04:48:23,363 INFO combined_learning 📖 Learning from 3 dialogues
+2025-12-11 04:48:23,363 INFO combined_learning Reflecting session=597775fb-ecd3-4225-a6b4-029474c1569e idx=0
+2025-12-11 04:48:42,234 INFO combined_learning Reflecting session=597775fb-ecd3-4225-a6b4-029474c1569e idx=2
+2025-12-11 04:48:58,623 INFO combined_learning Reflecting session=597775fb-ecd3-4225-a6b4-029474c1569e idx=4
+2025-12-11 04:49:21,061 INFO combined_learning Reflecting session=597775fb-ecd3-4225-a6b4-029474c1569e idx=6
+2025-12-11 04:49:37,594 INFO combined_learning Reflecting session=597775fb-ecd3-4225-a6b4-029474c1569e idx=8
+2025-12-11 04:50:01,702 INFO combined_learning Reflecting session=f74652d8-20d2-462e-a3b0-8f334804f71a idx=0
+2025-12-11 04:50:16,362 INFO combined_learning Reflecting session=f74652d8-20d2-462e-a3b0-8f334804f71a idx=2
+2025-12-11 04:50:41,554 INFO combined_learning Reflecting session=f74652d8-20d2-462e-a3b0-8f334804f71a idx=4
+2025-12-11 04:50:56,862 INFO combined_learning Reflecting session=f74652d8-20d2-462e-a3b0-8f334804f71a idx=6
+2025-12-11 04:51:13,403 INFO combined_learning Reflecting session=f74652d8-20d2-462e-a3b0-8f334804f71a idx=8
+2025-12-11 04:51:27,904 INFO combined_learning Reflecting session=71f2f259-6a18-4def-920c-d9756bd7b93a idx=0
+2025-12-11 04:51:45,531 INFO combined_learning Reflecting session=71f2f259-6a18-4def-920c-d9756bd7b93a idx=2
+2025-12-11 04:52:02,664 INFO combined_learning Reflecting session=71f2f259-6a18-4def-920c-d9756bd7b93a idx=4
+2025-12-11 04:52:19,654 INFO combined_learning Reflecting session=71f2f259-6a18-4def-920c-d9756bd7b93a idx=6
+2025-12-11 04:52:35,069 INFO combined_learning Reflecting session=71f2f259-6a18-4def-920c-d9756bd7b93a idx=8
+2025-12-11 04:52:49,170 INFO combined_learning ✅ Auto learning finished in 265.81s
+2025-12-11 04:52:49,170 INFO combined_learning Background learning status: success
+2025-12-11 04:57:49,172 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 04:57:49,172 INFO combined_learning 📖 Learning from 5 dialogues
+2025-12-11 04:57:49,173 INFO combined_learning Reflecting session=6e650d67-cff0-4025-8513-3dc3b260f552 idx=0
+2025-12-11 04:58:05,130 INFO combined_learning Reflecting session=6e650d67-cff0-4025-8513-3dc3b260f552 idx=2
+2025-12-11 04:58:20,088 INFO combined_learning Reflecting session=6e650d67-cff0-4025-8513-3dc3b260f552 idx=4
+2025-12-11 04:58:35,167 INFO combined_learning Reflecting session=6e650d67-cff0-4025-8513-3dc3b260f552 idx=6
+2025-12-11 04:58:52,497 INFO combined_learning Reflecting session=1390ae2f-16e3-4585-b64c-a216b3817ca5 idx=0
+2025-12-11 04:59:11,531 INFO combined_learning Reflecting session=1390ae2f-16e3-4585-b64c-a216b3817ca5 idx=2
+2025-12-11 04:59:30,776 INFO combined_learning Reflecting session=1390ae2f-16e3-4585-b64c-a216b3817ca5 idx=4
+2025-12-11 04:59:48,947 INFO combined_learning Reflecting session=1390ae2f-16e3-4585-b64c-a216b3817ca5 idx=6
+2025-12-11 05:00:07,099 INFO combined_learning Reflecting session=1390ae2f-16e3-4585-b64c-a216b3817ca5 idx=8
+2025-12-11 05:00:25,160 INFO combined_learning Reflecting session=fb1f42fe-828e-4894-9420-834d180bae4b idx=0
+2025-12-11 05:00:40,115 INFO combined_learning Reflecting session=fb1f42fe-828e-4894-9420-834d180bae4b idx=2
+2025-12-11 05:01:03,195 INFO combined_learning Reflecting session=fb1f42fe-828e-4894-9420-834d180bae4b idx=4
+2025-12-11 05:01:24,487 INFO combined_learning Reflecting session=fb1f42fe-828e-4894-9420-834d180bae4b idx=6
+2025-12-11 05:01:41,612 INFO combined_learning Reflecting session=fb1f42fe-828e-4894-9420-834d180bae4b idx=8
+2025-12-11 05:01:58,377 INFO combined_learning Reflecting session=0369fc33-7f46-4dc5-9d33-de06ba50c33c idx=0
+2025-12-11 05:02:16,368 INFO combined_learning Reflecting session=0369fc33-7f46-4dc5-9d33-de06ba50c33c idx=2
+2025-12-11 05:02:34,170 INFO combined_learning Reflecting session=0369fc33-7f46-4dc5-9d33-de06ba50c33c idx=4
+2025-12-11 05:02:48,064 INFO combined_learning Reflecting session=0369fc33-7f46-4dc5-9d33-de06ba50c33c idx=6
+2025-12-11 05:03:06,822 INFO combined_learning Reflecting session=0369fc33-7f46-4dc5-9d33-de06ba50c33c idx=8
+2025-12-11 05:03:23,803 INFO combined_learning Reflecting session=dee68ace-1982-40c3-85bd-d8269b9f9005 idx=0
+2025-12-11 05:03:42,380 INFO combined_learning Reflecting session=dee68ace-1982-40c3-85bd-d8269b9f9005 idx=2
+2025-12-11 05:03:58,404 INFO combined_learning ✅ Auto learning finished in 369.23s
+2025-12-11 05:03:58,404 INFO combined_learning Background learning status: success
+2025-12-11 05:10:58,406 INFO combined_learning 🤖 Background trigger fired
+2025-12-11 05:10:58,407 INFO combined_learning 📖 Learning from 4 dialogues
+2025-12-11 05:10:58,407 INFO combined_learning Reflecting session=47c3021f-40fd-40f4-8a39-f6bb0ccb6a4f idx=0
+2025-12-11 05:11:16,261 INFO combined_learning Reflecting session=47c3021f-40fd-40f4-8a39-f6bb0ccb6a4f idx=2
+2025-12-11 05:11:41,653 INFO combined_learning Reflecting session=1cf7d3eb-30c8-45c6-9091-bb1d3737ee78 idx=0
+2025-12-11 05:12:00,735 INFO combined_learning Reflecting session=1cf7d3eb-30c8-45c6-9091-bb1d3737ee78 idx=2
+2025-12-11 05:12:16,215 INFO combined_learning Reflecting session=1cf7d3eb-30c8-45c6-9091-bb1d3737ee78 idx=4
+2025-12-11 05:12:35,106 INFO combined_learning Reflecting session=1cf7d3eb-30c8-45c6-9091-bb1d3737ee78 idx=6
+2025-12-11 05:12:53,511 INFO combined_learning Reflecting session=1cf7d3eb-30c8-45c6-9091-bb1d3737ee78 idx=8
+2025-12-11 05:13:08,840 INFO combined_learning Reflecting session=5586184b-bdf0-47a3-9d25-1b850db26a5d idx=0
+2025-12-11 05:13:27,427 INFO combined_learning Reflecting session=5586184b-bdf0-47a3-9d25-1b850db26a5d idx=2
+2025-12-11 05:13:44,545 INFO combined_learning Reflecting session=5586184b-bdf0-47a3-9d25-1b850db26a5d idx=4
+2025-12-11 05:14:05,433 INFO combined_learning Reflecting session=5586184b-bdf0-47a3-9d25-1b850db26a5d idx=6
+2025-12-11 05:14:24,868 INFO combined_learning Reflecting session=5586184b-bdf0-47a3-9d25-1b850db26a5d idx=8
+2025-12-11 05:14:45,041 INFO combined_learning Reflecting session=bed4a53f-01b1-4de5-92c7-947448ef070d idx=0
+2025-12-11 05:15:06,761 INFO combined_learning Reflecting session=bed4a53f-01b1-4de5-92c7-947448ef070d idx=2
+2025-12-11 05:15:24,924 INFO combined_learning Reflecting session=bed4a53f-01b1-4de5-92c7-947448ef070d idx=4
+2025-12-11 05:15:47,973 INFO combined_learning Reflecting session=bed4a53f-01b1-4de5-92c7-947448ef070d idx=6
+2025-12-11 05:16:07,788 INFO combined_learning ✅ Auto learning finished in 309.38s
+2025-12-11 05:16:07,788 INFO combined_learning Background learning status: success
